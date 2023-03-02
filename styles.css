@@ -1,0 +1,65 @@
+
+
+#navbar {
+    display: block;
+    float: left;
+    width: 20%;
+    height: 100%;
+    overflow-y: scroll;
+    position: absolute;
+    border: 10px solid grey;
+    
+  
+  }
+  
+  #main-doc {
+    display: block;
+    float: right;
+    overflow-y: scroll;
+    width: 78%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    padding-left: 0px;
+    margin-left: px;
+    margin-bottom: px;
+    height: 110%;
+   
+    
+  }
+  
+  .nav-link {
+   display: block;
+   text-decoration: none;
+   font-size: 25px;
+   font-family: arial;
+   margin-bottom: 50px;
+   color: black;
+   
+   
+   
+  
+  }
+  
+  @media screen and (min-width: 1000px) and (max-width: 2000px) {
+    body {
+    width: 100%;
+    }
+    }
+  
+   nav ul {
+    list-style-type: none;
+    
+  }
+  
+  body {
+    height: 600px;
+  }
+  
+  header {
+   display: inline;
+   font-size: 40px;
+   overflow: hidden;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  }
